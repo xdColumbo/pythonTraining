@@ -2,12 +2,12 @@ names1 = ["Xena", "Bozsi", "Vica", "Szonja", "Eni", "Ildi", "Zsuzsi", 11, True]
 names2 = ["Pista", "Balázs", "Kornél", "Levente", "Gyuszi"]
 
 
-def nev_printer(nev_lista):
-    for nev in nev_lista:
-        if isinstance(nev, str):
-            print(nev.upper())
+def nev_printer(name_list):
+    for name in name_list:
+        if isinstance(name, str):
+            print(name.upper())
         else:
-            print(nev, "-->", "Is not a string", str(type(nev)))
+            print(name, "-->", "Is not a string", str(type(name)))
 
 
 nev_printer(names1)
